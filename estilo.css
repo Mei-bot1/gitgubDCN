@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cormorant", serif;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background: url('img/portada.jpg') no-repeat center/cover;
+    margin-bottom: 50px; 
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #96B6DD;
+    padding: 0 20px; 
+}
+
+nav img {
+    height: 80px;
+}
+
+
+
+
+nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Pangolin", serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.contenedor-izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.titulo {
+    text-align: left;
+    margin-bottom: 40px; 
+}
+
+.titulo h1 {
+    font-size: 100px; 
+    font-weight: bold;
+    color: #69350F;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.titulo h2 {
+    font-size: 40px; 
+    font-weight: bold;
+    color: #D4A017;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.titulo h3 {
+    font-size: 140px; 
+    font-weight: bold;
+    color: #A86518;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.imagen-bajo-titulo {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px; 
+    margin-bottom: 50px; 
+}
+
+.personas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px; 
+    width: 60%; 
+}
+
+.personaje {
+    display: flex;
+    justify-content: flex-end; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    text-align: right; 
+}
+
+.info-adicional {
+    font-size: 18px;
+    color: #69350F;
+    text-align: left;
+    width: 35%;
+    padding-left: 20px;
+}
+
+.texto {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    width: 60%;
+    text-align: right; 
+}
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #96B6DD;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    position: relative;
+}
+
+
